@@ -1,0 +1,224 @@
+
+.bdy{
+	background-color: rgba(197, 191, 191, 0.14)
+}
+
+.logo{
+	margin-top: -10px;
+}
+
+.wrap{
+	margin-top: 95px;
+}
+.navbar-default{
+	background-color:rgb(254, 254, 254);
+	margin: 0px;
+	border-radius: 0px;
+	border:none;
+	padding-bottom: 0px;
+	visibility: visible;
+}
+
+
+.nav{
+	padding-top: 25px;
+	font-size: 20px;
+	min-height: 95px;
+}
+
+.nav li a{
+	color: #95c41f !important;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.nav li a:hover{
+	color: #006935 !important;
+	font-size: 13px;
+	transition: all .9s;
+	border-bottom: 1px solid #006935;
+}
+.navbar-default .navbar-nav>li>a {
+	color: rgb(110, 105, 110) !important;
+	padding: 20px 35px;
+}
+
+.navbar-inverse {
+	background:#fff;
+	border-color: #95c41f;
+	border-bottom-width: 3px;	
+}
+
+.dropdown-menu{
+	background-color: #323847;
+}
+
+.dropdown-menu ul,li,a{
+	
+	color: #fff !important
+}
+
+.dropdown-menu ul,li,a:hover{
+	
+	color: #95c41f  !important;
+}
+
+.carousel-caption h4{
+	font-family: corbel 
+}
+
+.carousel-caption h1{
+	font-size: 50px;
+	color: #fff !important
+}
+
+
+.section{
+	padding-top:80px;
+	background-image: url("img/bimg.jpg");
+}
+
+
+
+.navbar-brand h3{
+	font-size: 20px;
+	margin: 0px;
+}
+
+
+
+@media(max-width: 768px){
+	.navbar-brand h3{
+
+		width: 175px;
+		margin-top: -8px
+
+
+	}
+}
+
+
+.form-field{
+	background-attachment: fixed;
+	background-image: url("img/ia.jpg");
+	
+}
+
+
+
+.form-commit{
+	background-color: #ececec;
+	border-radius: 6px;
+	margin-top: 80px
+}
+
+.form-commit h1{
+	text-align: center;
+	padding-top: 17px;
+	text-transform: uppercase;
+	font-family: "Sanchez", serif;
+}
+
+.form-commit .form-group{
+	margin: 30px;
+	background-color: #fff;
+}
+
+.form-commit .form-group input{
+	border: 1px solid #b68b4c;
+}
+
+.form-commit button{
+	width: 100%;
+	min-height: 50px;
+	background-color: yellow;
+	color: black;
+	margin-bottom: 20px;
+	border: #fff;
+}
+
+ .cool-button{
+ 	
+	background: #acd150 !important;
+    padding: 9px ;
+    border-right: 1px solid #006935;
+    box-shadow: 1px 4px 10px #3a3939;
+    width: fit-content;
+    display: inline-block;
+}
+
+.page-info p{
+	font-family: Corbel;
+    font-size: 16px;
+}
+
+.highlight-text{
+	text-transform:uppercase;
+	font-family:Corbel;
+}
+
+.img-circle img{
+	width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+
+
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+
+.category li{
+	list-style: none;
+	font-family: corbel;
+	color: black !important;
+	padding-bottom:7px;
+}
+
+.btn{
+	color: #acd150;
+	border-color: 4px solid #acd150 ;
+}
+
+.btn:hover{
+background: #acd150;
+color: #fff;
+transition: .6s all ;
+
+}
